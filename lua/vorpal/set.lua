@@ -1,5 +1,6 @@
 vim.opt.nu = true
 vim.opt.relativenumber = true
+vim.opt.guifont="IBM Plex Mono Bold 12"
 
 vim.opt.termguicolors = true
 
