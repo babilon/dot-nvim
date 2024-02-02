@@ -6,7 +6,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-	ensure_installed = {'pyright', 'clangd', 'cpplint', 'bashls', 'autotools_ls', 'als', 'cpplint'},
+	ensure_installed = {'pyright', 'clangd', 'bashls', 'autotools_ls', 'als'},
 	handlers = {
 		lsp_zero.default_setup,
 		--example_server = lsp_zero.noop,
