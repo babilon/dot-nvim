@@ -22,6 +22,10 @@ vim.opt.undofile = true
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
 
+-- Enable ignorecase + smartcase for better searching
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+
 vim.opt.scrolloff = 3
 -- don't know what these do
 --vim.opt.signcolumn = "yes"
