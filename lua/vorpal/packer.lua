@@ -13,6 +13,10 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
+  use {
+	  "justinmk/vim-sneak", as = 'vim-sneak'
+  }
+
   use ({
       'rose-pine/neovim',
       as = 'rose-pine',

@@ -17,7 +17,7 @@ require('wincent.commandt').setup({
 	smart_case = nil, -- If nil, will infer from Neovim's `'smartcase'`.
 	threads = nil, -- Let heuristic apply.
 	height = 30,
-	margin = 50,
+	margin = 10,
 	never_show_dot_files = false,
 	order = 'reverse', -- 'forward' or 'reverse'.
 	position = 'bottom', -- 'bottom', 'center' or 'top'.

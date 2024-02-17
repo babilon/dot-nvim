@@ -4,7 +4,8 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 vim.keymap.set('n', '<Leader>b', '<Plug>(CommandTBuffer)')
 vim.keymap.set('n', '<Leader>j', '<Plug>(CommandTJump)')
-vim.keymap.set('n', '<Leader>t', '<Plug>(CommandT)')
+vim.keymap.set('n', '<Leader>t', '<Plug>(CommandTGit)')
+vim.keymap.set('n', '<Leader>f', '<Plug>(CommandT)')
 
 vim.keymap.set('n', '<C-J>', '<C-W><Down>')
 vim.keymap.set('n', '<C-K>', '<C-W>k')
