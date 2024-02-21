@@ -6,6 +6,8 @@ vim.opt.termguicolors = true
 
 vim.opt.expandtab=true
 vim.opt.tabstop=8
+vim.o.breakindent = true
+
 vim.opt.shiftwidth=4
 vim.opt.softtabstop=4
 vim.opt.smartindent = true
@@ -33,3 +35,5 @@ vim.opt.scrolloff = 3
 
 vim.opt.updatetime = 50
 vim.opt.colorcolumn = "80"
+
+vim.o.completeopt = 'menu,menuone,noinsert,noselect'
